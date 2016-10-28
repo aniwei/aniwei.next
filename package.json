@@ -1,0 +1,44 @@
+{
+  "name": "AWEngine",
+  "library": "/libs/",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app/index",
+  "engineEntry": "internal/bootstrap",
+  "preload": [
+    {
+      "name": "internal/bootstrap",
+      "file": "/preload/internal/bootstrap"
+    },{
+      "name": "internal/app",
+      "file": "/preload/internal/app"
+    },{
+      "name": "internal/module",
+      "file": "/preload/internal/module"
+    },{
+      "name": "module",
+      "file": "/preload/module"
+    },{
+      "name": "path",
+      "file": "/preload/path"
+    },{
+      "name": "fs",
+      "file": "/preload/fs"
+    },{
+      "name": "url",
+      "file": "/url"
+    },{
+      "name": "events",
+      "file": "/events"
+    },{
+      "name": "viewcontroller",
+      "file": "/viewcontroller"
+    },{
+      "name": "urlprotocol",
+      "file": "/urlprotocol",
+      "native": "URLProtocol"
+    }
+  ],
+  "author": "aniwei",
+  "license": "ISC"
+}

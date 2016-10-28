@@ -15,6 +15,14 @@
 		DA8A417B1DA422E000F1ADDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA8A41791DA422E000F1ADDB /* LaunchScreen.storyboard */; };
 		DA8A41861DA422E100F1ADDB /* aniweiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8A41851DA422E100F1ADDB /* aniweiTests.m */; };
 		DA8A41911DA422E100F1ADDB /* aniweiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8A41901DA422E100F1ADDB /* aniweiUITests.m */; };
+		DA8A41A11DA4231000F1ADDB /* AWEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8A41A01DA4231000F1ADDB /* AWEngine.m */; };
+		DA8A41A41DA4253400F1ADDB /* AWEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8A41A31DA4253400F1ADDB /* AWEvents.m */; };
+		DA8A41AA1DA430FA00F1ADDB /* AWScriptEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8A41A91DA430FA00F1ADDB /* AWScriptEngine.m */; };
+		DA8A41AD1DA4B94B00F1ADDB /* AWBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8A41AC1DA4B94B00F1ADDB /* AWBridge.m */; };
+		DA8A41B01DA5497000F1ADDB /* AWConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8A41AF1DA5497000F1ADDB /* AWConfigure.m */; };
+		DA8A41B21DA552D200F1ADDB /* package.json in Resources */ = {isa = PBXBuildFile; fileRef = DA8A41B11DA552D200F1ADDB /* package.json */; };
+		DA8A41B41DA552E100F1ADDB /* AWEngine in Resources */ = {isa = PBXBuildFile; fileRef = DA8A41B31DA552E100F1ADDB /* AWEngine */; };
+		DA8A41B71DA55A2900F1ADDB /* AWContext.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8A41B61DA55A2900F1ADDB /* AWContext.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,21 @@
 		DA8A418C1DA422E100F1ADDB /* aniweiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aniweiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA8A41901DA422E100F1ADDB /* aniweiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = aniweiUITests.m; sourceTree = "<group>"; };
 		DA8A41921DA422E100F1ADDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA8A419F1DA4231000F1ADDB /* AWEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWEngine.h; sourceTree = "<group>"; };
+		DA8A41A01DA4231000F1ADDB /* AWEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWEngine.m; sourceTree = "<group>"; };
+		DA8A41A21DA4253400F1ADDB /* AWEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWEvents.h; sourceTree = "<group>"; };
+		DA8A41A31DA4253400F1ADDB /* AWEvents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWEvents.m; sourceTree = "<group>"; };
+		DA8A41A51DA4290D00F1ADDB /* AWEventsProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWEventsProtocol.h; sourceTree = "<group>"; };
+		DA8A41A81DA430FA00F1ADDB /* AWScriptEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWScriptEngine.h; sourceTree = "<group>"; };
+		DA8A41A91DA430FA00F1ADDB /* AWScriptEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWScriptEngine.m; sourceTree = "<group>"; };
+		DA8A41AB1DA4B94B00F1ADDB /* AWBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWBridge.h; sourceTree = "<group>"; };
+		DA8A41AC1DA4B94B00F1ADDB /* AWBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWBridge.m; sourceTree = "<group>"; };
+		DA8A41AE1DA5497000F1ADDB /* AWConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWConfigure.h; sourceTree = "<group>"; };
+		DA8A41AF1DA5497000F1ADDB /* AWConfigure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWConfigure.m; sourceTree = "<group>"; };
+		DA8A41B11DA552D200F1ADDB /* package.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = package.json; sourceTree = "<group>"; };
+		DA8A41B31DA552E100F1ADDB /* AWEngine */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AWEngine; sourceTree = "<group>"; };
+		DA8A41B51DA55A2900F1ADDB /* AWContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWContext.h; sourceTree = "<group>"; };
+		DA8A41B61DA55A2900F1ADDB /* AWContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWContext.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +104,9 @@
 		DA8A415F1DA422E000F1ADDB = {
 			isa = PBXGroup;
 			children = (
+				DA8A41B31DA552E100F1ADDB /* AWEngine */,
+				DA8A41B11DA552D200F1ADDB /* package.json */,
+				DA8A419E1DA422FA00F1ADDB /* library */,
 				DA8A416A1DA422E000F1ADDB /* aniwei */,
 				DA8A41841DA422E100F1ADDB /* aniweiTests */,
 				DA8A418F1DA422E100F1ADDB /* aniweiUITests */,
@@ -138,6 +164,26 @@
 				DA8A41921DA422E100F1ADDB /* Info.plist */,
 			);
 			path = aniweiUITests;
+			sourceTree = "<group>";
+		};
+		DA8A419E1DA422FA00F1ADDB /* library */ = {
+			isa = PBXGroup;
+			children = (
+				DA8A41AE1DA5497000F1ADDB /* AWConfigure.h */,
+				DA8A41AF1DA5497000F1ADDB /* AWConfigure.m */,
+				DA8A419F1DA4231000F1ADDB /* AWEngine.h */,
+				DA8A41A01DA4231000F1ADDB /* AWEngine.m */,
+				DA8A41A21DA4253400F1ADDB /* AWEvents.h */,
+				DA8A41A31DA4253400F1ADDB /* AWEvents.m */,
+				DA8A41A51DA4290D00F1ADDB /* AWEventsProtocol.h */,
+				DA8A41A81DA430FA00F1ADDB /* AWScriptEngine.h */,
+				DA8A41A91DA430FA00F1ADDB /* AWScriptEngine.m */,
+				DA8A41AB1DA4B94B00F1ADDB /* AWBridge.h */,
+				DA8A41AC1DA4B94B00F1ADDB /* AWBridge.m */,
+				DA8A41B51DA55A2900F1ADDB /* AWContext.h */,
+				DA8A41B61DA55A2900F1ADDB /* AWContext.m */,
+			);
+			name = library;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,9 +292,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA8A41B21DA552D200F1ADDB /* package.json in Resources */,
 				DA8A417B1DA422E000F1ADDB /* LaunchScreen.storyboard in Resources */,
 				DA8A41781DA422E000F1ADDB /* Assets.xcassets in Resources */,
 				DA8A41761DA422E000F1ADDB /* Main.storyboard in Resources */,
+				DA8A41B41DA552E100F1ADDB /* AWEngine in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +321,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA8A41B71DA55A2900F1ADDB /* AWContext.m in Sources */,
+				DA8A41AD1DA4B94B00F1ADDB /* AWBridge.m in Sources */,
 				DA8A41731DA422E000F1ADDB /* ViewController.m in Sources */,
+				DA8A41B01DA5497000F1ADDB /* AWConfigure.m in Sources */,
 				DA8A41701DA422E000F1ADDB /* AppDelegate.m in Sources */,
+				DA8A41AA1DA430FA00F1ADDB /* AWScriptEngine.m in Sources */,
 				DA8A416D1DA422E000F1ADDB /* main.m in Sources */,
+				DA8A41A11DA4231000F1ADDB /* AWEngine.m in Sources */,
+				DA8A41A41DA4253400F1ADDB /* AWEvents.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

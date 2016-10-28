@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#import "AWEngine.h"
+
 @interface AppDelegate ()
 
 @end
@@ -17,6 +19,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    AWEngine *awEngine = [AWEngine sharedEngine];
+    
     return YES;
 }
 
